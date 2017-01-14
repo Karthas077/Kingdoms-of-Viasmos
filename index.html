@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kingdoms of Viasmos v0.0.1</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/jquery-ui-git.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	
+	<script type="text/javascript" src="jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+<div id='header'>
+	<div class="inforealm">Kingdoms of Viasmos v0.0.1 Created by Steven Buell stevenbbuell@gmail.com and Osman Mir osmanalikhanmir@gmail.com
+		<br>
+		<!-- Wiki/Guide Here-->
+	</div>
+
+	<button class='btn btn-default' data-toggle="modal" data-target="#changelog">Changelog</button>
+	<button class='btn btn-default' data-toggle="modal" data-target="#options">Options</button>
+	<br><br>
+</div>
+
+<div id='navigation'>
+	<ul class="nav nav-tabs">
+		<li id="kingdomspane" class="active"><a data-toggle="tab" href="#select">Game/Kingdom Select</a></li>
+		<li id="mappane" class="inactive"><a data-toggle="tab" href="#map">Kingdom Map</a></li>
+	</ul>
+	<br><br>
+</div>
+
+<div id='content'>
+	<div class="tab-content">
+		<div id="kingdoms" class="games tab-pane fade in active">
+			<div class="gamelist">
+				<!-- Buttons to select map -->
+			</div>
+		</div>
+		<div id="map" class="map tab-pane fade">
+			<!-- PNG of map -->
+		</div>
+	</div>
+
+	<div class="modal fade" id="options" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title messagetitle">Options</h4>
+				</div>
+				<div class="modal-body messagetext">
+					<!-- Options Here-->
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="changelog" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title messagetitle">Changelog</h4>
+				</div>
+				<div class="modal-body messagetext changes">
+					<b>V 0.0.0</b>
+					<ul>
+						<li>nil</li>
+					</ul>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<script>
+	//Game/Map select
+	//User Login
+	//Render Map
+	//Establish Grid
+	//Render Tokens
+	//GM controls to create tokens
+	//GM controls to move tokens
+	//Autosave Token positions
+</script>
+</html>
